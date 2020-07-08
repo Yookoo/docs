@@ -19,6 +19,27 @@ module.exports = {
       nav: [
         { text: '首页', link: '/' },
         { text: '教程', link: '/guide/' },
+        {
+          text: '前端',
+          items: [
+            { text: 'MUI', link: '/front/mui/' },
+            { text: 'VUE', link: '/front/vue/' }
+          ]
+        },
+        {
+          text: '后端',
+          items: [
+            { text: 'Spring', link: '/back/spring/' },
+            { text: 'Mybatis', link: '/back/mybatis/' }
+          ]
+        },
+        {
+          text: '运维',
+          items: [
+            { text: 'Linux', link: '/devops/linux/' }
+          ]
+        },
+        { text: '其他', link: '/others/' },
         { text: 'rising-waves', link: 'https://yookoo.github.io/rising-waves/#/' },
         
       ]
