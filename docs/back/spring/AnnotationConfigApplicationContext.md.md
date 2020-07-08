@@ -1,4 +1,10 @@
-# AnnotationConfigApplicationContext.md
+---
+title: 上下文
+---
+
+# AnnotationConfigApplicationContext
+
+
 
 ```java
 /**
